@@ -27,7 +27,6 @@ test_results/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
 CTestTestfile.cmake
 *.cmake
 
