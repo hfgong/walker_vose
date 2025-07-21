@@ -49,15 +49,22 @@ cp walker_vose/include/walker_vose.hpp /path/to/your/project/include/
 sudo cp walker_vose/include/walker_vose.hpp /usr/local/include/
 ```
 
-## Building Tests
+## Building Tests and Examples
 
-Tests require Google Test. To build and run tests:
+The project includes a Makefile for building examples and tests. Google Test is required for tests.
 
 ```bash
-mkdir build && cd build
-cmake ..
-make
-./tests/test_walker_vose
+# Build and run examples
+make example
+
+# Build and run tests (requires Google Test installed)
+make test
+
+# Build everything
+make all
+
+# Clean build artifacts
+make clean
 ```
 
 ## Usage Examples
